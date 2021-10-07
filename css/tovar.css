@@ -1,0 +1,132 @@
+.header{
+
+	background-color:DimGrey;}
+body {
+	height: 100%;
+}
+.logo{
+	max-height: 100px;
+}
+
+.logo_img{
+	height: 100%;
+	max-width: 100%;
+padding-left: 35%;
+}
+.search{
+	padding: 35px 20px 10px 10%;
+}
+.pole_search{
+	width: 70%;
+}
+.header_button{
+	padding: 35px 20px 5px 10%;
+}
+.header_button .btn {
+	margin-right:5%;
+	margin-bottom:5%;
+}
+.trash{
+	height: 50px;
+	width: 50px;
+}
+.menu{
+	margin-left: 36%;
+}
+
+.navbark{
+	background-color:Silver;
+}
+.container{
+	min-height: 100%;
+	padding-right: 10%;
+}
+.hello{
+ text-align: center;
+}
+footer {
+		height: 35px;
+	margin-top: -10px;
+width: 100%;}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+  text-decoration: none;
+  color: #666;
+}
+.catalog{ 
+	border: solid 1px black;
+border-radius: 30px;
+	background-color: Snow;
+padding: 0;
+margin: 10px 5% 20px 5%;
+}
+.catalog ul li{
+	list-style: none;
+	border-bottom: solid 1px black;
+	text-align: center;	
+	color:black;
+	padding: 5px 0 5 0;
+	color: black;
+}
+.catalog ul{
+	padding: 0;	
+		margin: 0px;
+}
+.catalog ul .list_last{
+border-bottom: none;
+	
+}
+.catalog ul li:hover{
+	background: Grey;
+	color: white;
+}
+.catalog ul .list_last2:hover{
+
+	border-radius: 30px 30px 0px 0px;
+}
+.catalog ul .list_last:hover{
+
+	border-radius: 0px 0px 30px 30px;
+}
+
+
+
+@media screen and (max-width: 766px) {
+ .logo{
+	max-height: 80px;
+}
+	.search{
+	padding: 5px 20px 0px 15%;
+}
+	.header_button{
+	padding: 5px 20px 5px 25%;
+}
+	.menu{
+	margin-left: 0%;
+}
+	.nav-item{
+		 text-align: center;
+	}
+	
+}
+.cont{
+	display: flex;
+	flex-wrap: wrap;
+}
+.okno_tovar{
+	border: solid 1px black;
+	display: flex;
+	margin-left: 10%;
+		 
+  margin-left: auto;
+	height: 250px;
+
+}
+.tovar_img{
+	max-height:  250px;
+}
+.tovar_img img{
+	height: 100%;
+}

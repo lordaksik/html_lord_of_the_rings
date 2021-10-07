@@ -1,0 +1,96 @@
+.header{
+
+	background-color:DimGrey;}
+body {
+	height: 100%;
+}
+.logo{
+	max-height: 100px;
+}
+
+.logo_img{
+	height: 100%;
+	max-width: 100%;
+padding-left: 35%;
+}
+.search{
+	padding: 35px 20px 10px 10%;
+}
+.pole_search{
+	width: 70%;
+}
+.header_button{
+	padding: 35px 20px 5px 10%;
+}
+.header_button .btn {
+	margin-right:5%;
+	margin-bottom:5%;
+}
+.trash{
+	height: 50px;
+	width: 50px;
+}
+.menu{
+	margin-left: 36%;
+}
+.video_lotr{
+	width: 70%;
+	height: 500px;
+	margin: 5px 15% 10px 15%;
+}
+
+.navbark{
+	background-color:Silver;
+}
+.container{
+	min-height: 100%;
+}
+.hello{
+ text-align: center;
+}
+.block_info{
+	
+	height: 350px;
+	margin: 10px 1% 20px 3%;
+	width: 200px;
+}
+.block_info .row img{
+	width: 100%;
+	padding: 0px;
+	height: 300px;
+}
+
+@media screen and (max-width: 766px) {
+ .logo{
+	max-height: 80px;
+}
+	.search{
+	padding: 5px 20px 0px 15%;
+}
+	.header_button{
+	padding: 5px 20px 5px 25%;
+}
+	.menu{
+	margin-left: 0%;
+}
+	.video_lotr{
+	width: 90%;
+	height: 300px;
+	margin: 5px 5% 10px 5%;
+}
+	.nav-item{
+		 text-align: center;
+	}
+	.block_info{
+	height: 350px;
+	margin: 10px 1% 20px 3%;
+}
+	
+}
+footer {
+		height: 35px;
+	margin-top: -10px;
+width: 100%;}
+p{
+	text-align: justify;
+}

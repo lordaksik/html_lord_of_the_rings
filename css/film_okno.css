@@ -1,0 +1,109 @@
+.header{
+
+	background-color:DimGrey;}
+body {
+	height: 100%;
+}
+.logo{
+	max-height: 100px;
+}
+
+.logo_img{
+	height: 100%;
+	max-width: 100%;
+padding-left: 35%;
+}
+.search{
+	padding: 35px 20px 10px 10%;
+}
+.pole_search{
+	width: 70%;
+}
+.header_button{
+	padding: 35px 20px 5px 10%;
+}
+.header_button .btn {
+	margin-right:5%;
+	margin-bottom:5%;
+}
+.trash{
+	height: 50px;
+	width: 50px;
+}
+.menu{
+	margin-left: 36%;
+}
+.video_lotr{
+	width: 70%;
+	height: 500px;
+	margin: 5px 15% 10px 15%;
+}
+
+.navbark{
+	background-color:Silver;
+}
+.container{
+	min-height: 100%;
+}
+.hello{
+ text-align: center;
+}
+footer {
+		height: 35px;
+	margin-top: -10px;
+width: 100%;}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+  text-decoration: none;
+  color: #666;
+}
+.okno_film{
+	margin-bottom: 50px;
+}
+.okno{
+	margin: 0px;
+	padding: 0px;
+}
+.okno img{
+	width: 100%;
+	padding: 0px;
+	height: 500;	margin: 0px;
+
+}
+.okno_film .row h1{
+	text-align: center;
+}
+.okno_film .row p{
+	padding: 10px;
+	text-align:justify;
+}
+.video_lotr{
+	height: 500px;
+	width: 80%;
+	margin-left: 10%;
+}
+@media screen and (max-width: 766px) {
+ .logo{
+	max-height: 80px;
+}
+	.search{
+	padding: 5px 20px 0px 15%;
+}
+	.header_button{
+	padding: 5px 20px 5px 25%;
+}
+	.menu{
+	margin-left: 0%;
+}
+	.nav-item{
+		 text-align: center;
+	}
+
+.video_lotr{
+	width: 90%;
+	height: 300px;
+	margin: 5px 5% 10px 5%;
+}	
+}
